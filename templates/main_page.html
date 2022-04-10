@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>MOVIE REVIEW EVALUATION</title>
+    </head>
+    <body bgcolor=#5600B7>
+        <center>
+            <h1>MOVIE REVIEW EVALUATION</h1>
+        </br>
+            <form action="{{url_for('reviewEvaluation')}}", method = "POST">
+                <h3><b>ENTER YOUR REVIEW: </b></h3>
+                <p><input type = "text"  name = "review" placeholder="Enter here"/></p>
+                <p><input type = "submit" value = "PREDICT"/><p>
+            </form>
+        </br>
+        </br>
+        </br>
+            <img src='static\movie-reviews.jpg' alt="logo" title='logo'>
+        <center>
+    </body>
+</html>
